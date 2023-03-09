@@ -13,7 +13,7 @@ const CategoryScore = ({ categoryData }) => {
       className={classnames(classes.categoryScore, classes[categoryStyleClass])}
     >
       <div className={classes.categoryTitle}>
-        <img src={categoryIcon} alt='Reaction Icon' />
+        <img src={categoryIcon} alt={`${categoryName} Icon`} />
         <p className={classes.categoryName}>{categoryName}</p>
       </div>
 
