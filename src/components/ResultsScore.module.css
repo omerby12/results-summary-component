@@ -1,0 +1,138 @@
+.resultsScore {
+    /* Gradient 1 */
+
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    border-radius: 32px;
+
+    max-width: 37rem;
+
+    /* Layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 6rem;
+}
+
+.resultsScoreHeading {
+    text-align: center;
+    margin-bottom: 3.5rem;
+    color: #CAC9FF;
+}
+
+.resultsScoreNumber {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    margin-bottom: 2.8rem;
+
+    height: 20rem;
+    width: 20rem;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+    border-radius: 50%;
+
+}
+
+.score {
+
+    font-weight: 800;
+    font-size: 7.2rem;
+    line-height: 7.2rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 0.4rem;
+}
+
+
+.scoreTotal {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    color: #CAC9FF;
+    mix-blend-mode: normal;
+    opacity: 0.52;
+}
+
+.resultsScoreInfo {
+    margin-bottom: 5.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+    text-align: center;
+}
+
+
+.infoHeading {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+    color: #FFFFFF;
+}
+
+
+.infoText {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    color: #CAC9FF;
+}
+
+/* MEDIA QURIES */
+
+/*****************************/
+/* BELOW 800px (Mobile) */
+/*****************************/
+
+@media (max-width: 50em) {
+    .resultsScore {
+        box-shadow: 0px 3rem 6rem rgba(61, 108, 236, 0.15);
+        border-radius: 0px 0px 3.2rem 3.2rem;
+        max-width: max-content;
+    }
+
+    .resultsScoreHeading {
+        text-align: center;
+        margin-bottom: 2.4rem;
+        color: #CAC9FF;
+    }
+
+    .resultsScoreNumber {
+        text-align: center;
+        margin-bottom: 2.4rem;
+
+        height: 14rem;
+        width: 14rem;
+    }
+
+    .score {
+        font-size: 5.6rem;
+        margin-bottom: 0;
+    }
+
+    .scoreTotal {
+        font-size: 1.6rem;
+        line-height: 2.1rem;
+    }
+
+    .resultsScoreInfo {
+        margin-bottom: 4rem;
+        gap: 0.8rem;
+    }
+
+    .infoHeading {
+        font-size: 2.4rem;
+        line-height: 3.1rem;
+    }
+
+
+    .infoText {
+        font-size: 1.6rem;
+        line-height: 2.1rem;
+    }
+}

@@ -1,0 +1,39 @@
+.resultsInfo {
+    padding: 0 4rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.resultsInfoHeading {
+    color: #303B59;
+    margin-bottom: 2.8rem;
+}
+
+.resultsInfoBox {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-bottom: 4rem;
+}
+
+/* MEDIA QURIES */
+
+/*****************************/
+/* BELOW 800px (Mobile) */
+/*****************************/
+
+@media (max-width: 50em) {
+    .resultsInfo {
+        padding: 0 3rem 0;
+    }
+
+    .resultsInfoHeading {
+        margin-bottom: 2.4rem;
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+
+    .resultsInfoBox {
+        margin-bottom: 2.4rem;
+    }
+}

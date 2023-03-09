@@ -1,0 +1,66 @@
+.categoryScore {
+    border-radius: 12px;
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+}
+
+.categoryTitle {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.categoryName {
+    font-weight: 500;
+}
+
+.categoryGradeBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    color: #303B59;
+    font-weight: 700;
+}
+
+.categoryTotalGradeText {
+    opacity: 0.5;
+}
+
+
+.categoryReaction {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+    color: #FF5555;
+}
+
+.categoryMemory {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+    color: #FFB21E;
+}
+
+.categoryVerbal {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+    color: #00BB8F;
+}
+
+.categoryVisual {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+    color: #1125D6;
+}
+
+/* MEDIA QURIES */
+
+/*****************************/
+/* BELOW 800px (Mobile) */
+/*****************************/
+
+@media (max-width: 50em) {
+    .categoryScore {
+        font-size: 1.6rem;
+        line-height: 2.1rem;
+    }
+}
