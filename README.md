@@ -48,8 +48,6 @@ Users should be able to:
 
 1. I learned to use classnames for css modules, it make it easy to combine local classes in addition to global styles like grid/flex
 
-To see how you can add code snippets, see below:
-
 ```React
   <main
       className={classnames(classes.resultsSummary, 'grid', 'grid--2-cols')}
