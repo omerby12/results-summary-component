@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live](https://results-summary-component-roan.vercel.app/)
 
 ## My process
 
@@ -41,7 +41,7 @@ Users should be able to:
 - CSS Grid
 - Desktop-first workflow
 - [React](https://reactjs.org/) - JS library
-- [CSS Modules](https://github.com/css-modules/css-modules)
+- [CSS Modules](https://github.com/css-modules/css-modules) - CSS Modules are a styling library that scopes CSS to the component.
 - [classnames](https://www.npmjs.com/package/classnames/) - A simple JavaScript utility for conditionally joining classNames together.
 
 ### What I learned
